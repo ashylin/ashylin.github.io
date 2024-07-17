@@ -1,0 +1,20 @@
+.about {
+  display: flex;
+  padding-top: 32px;
+  padding: 40px 200px 40px 200px;
+}
+
+.portrait {
+  width: 24%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+.portrait-caption {
+  padding-left: 64px;
+}
+
+.intro {
+  font-size: 40px;
+}
