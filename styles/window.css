@@ -1,32 +1,10 @@
 .window {
-  background-color: lightblue;
-  height: 32px;
-
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   top: 0;
 
-  position: fixed;
-  left: 0;
-  right: 0;
-}
-
-.left-section {
-  display: flex;
-}
-
-.window-icon {
+  background-color: #383838;
   height: 32px;
-}
-
-.middle-section {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-}
-
-.right-section {
-  display: flex;
-  height: 32px;
+  text-align: center;
 }

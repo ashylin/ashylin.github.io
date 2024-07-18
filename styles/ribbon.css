@@ -1,0 +1,12 @@
+.ribbon {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+
+  background-color: #4e4e4e;
+  height: 32px;
+  text-align: center;
+  padding: 0 16px;
+}
