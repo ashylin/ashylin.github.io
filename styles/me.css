@@ -5,11 +5,11 @@
   gap: 32px;
 
   width: 60%;
-  margin: 80px auto;
+  margin: 128px auto;
 }
 
 .portrait-frame {
-  width: 80%;
+  width: 40%;
   border-radius: 16px;
 }
 
@@ -18,9 +18,14 @@
   border-radius: inherit;
 }
 
+.portrait-caption {
+  width: 60%;
+}
+
 .typewriter-text {
   font-family: Inter, Arial;
-  font-size: px;
+  font-size: 32px;
+  font-weight: bold;
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
