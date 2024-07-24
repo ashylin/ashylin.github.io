@@ -1,8 +1,13 @@
-body {
+*, *::before, *::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #2d2d2d;
-  color: #dadada;
+  font-size: inherit;
+}
+
+body {
+  background-color: #060707;
+  color: white;
   font-family: Karla, Arial;
   margin-bottom: 1000px;
 }

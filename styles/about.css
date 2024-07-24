@@ -1,39 +1,43 @@
-.me {
+.about {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   gap: 32px;
-
   width: 60%;
   margin: 100px auto;
 }
 
-.portrait-frame {
+.picture-frame {
   width: 40%;
   border-radius: 16px;
 }
 
-.portrait {
+.picture {
   width: 100%;
   border-radius: inherit;
 }
 
-.portrait-caption {
+.about-content {
   width: 60%;
 }
 
 .typewriter-text {
-  font-family: Inter, Arial;
+  font-family: "Noto Serif", Arial;
   font-size: 32px;
-  font-weight: bold;
+  font-weight: 500;
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  border-right: .15em solid #b2b2b2;
+  border-right: .15em solid white;
   animation: typing 3.5s steps(30, end), blink-caret 1s step-end infinite;
+  margin-bottom: 24px;
 }
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: #b2b2b2 }
+  50% { border-color: white }
+}
+
+.about-content p {
+  margin-bottom: 16px;
 }

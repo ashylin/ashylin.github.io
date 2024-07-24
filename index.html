@@ -2,6 +2,11 @@
 <html>
   <head>
     <title>Ash's Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -10,47 +15,53 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/sidebar.css">
-    <link rel="stylesheet" href="styles/me.css">
+    <link rel="stylesheet" href="styles/about.css">
   </head>
   <body>
     <div class="header">
-      <p>About</p>
-      <p>Projects</p>
-      <p>Resume</p>
+      <div class="header-nav-wrapper">
+        <div class="header-nav">
+          <a href="https://ashylin.github.io/" style="color: #acbaff;">ABOUT</a>
+          <a href="https://ashylin.github.io/projects.html">PROJECTS</a>
+          <a href="https://ashylin.github.io/mechanics.html">MECHANICS</a>
+          <a href="https://ashylin.github.io/story.html">STORY</a>
+          <a href="Resume_Ashley_Lin.pdf" target="_blank">RESUME</a>
+        </div>
+      </div>     
+      <img class="header-github" src="icons/github.svg">
+      <img class="header-linkedin" src="icons/linkedin.svg">
+      <img class="header-email" src="icons/email.svg">
     </div>
 
-    <div class="me">
-      <div class="portrait-frame">
-        <img class="portrait" src="portrait.jpg">
-      </div>
-      <div class="portrait-caption">
+    <main>
+      <div class="about">
+        <div class="picture-frame">
+          <img class="picture" src="me.jpg">
+        </div>
+        <div class="about-content">
           <div id="typewriter" class="typewriter-text"></div>
           <script src="script.js"></script>
-        <p>
-          I'm a fourth year studying Mathematics-Computer Science at UCSD, with
-          a strong focus on artificial intelligence, machine learning, and data 
-          analysis. There fields drive my passion to innovate and tackle 
-          complex challenges in industries. Through my coursework and projects,
-          I have cultivated a robust expertise in programming and algorithms.
-          I thrive on challenges and am eager to contribute to cutting-edge 
-          projects within the tech industry.
-        </p>
-        <p>
-          Recently, I designed and integrated a fully functional, responsive 
-          website featuring dynamic animations, a theater section, and a 
-          project grid display.
-        </p>
-        <p>
-          When I'm not immersed in Visual Studio Code, I enjoy exploring cafes, gaming with
-          friends, and indulging in drawing.
-        </p>
+          <p>
+            I'm a third year studying Mathematics-Computer Science at UCSD, with
+            a strong focus on artificial intelligence, machine learning, and data 
+            analysis. There fields drive my passion to innovate and tackle 
+            complex challenges in industries. Through my coursework and projects,
+            I have cultivated a robust expertise in programming and algorithms.
+            I thrive on challenges and am eager to contribute to cutting-edge 
+            projects within the tech industry.
+          </p>
+          <p>
+            Recently, I designed and integrated a fully functional, responsive 
+            website featuring dynamic animations, a theater section, and a 
+            project grid display.
+          </p>
+          <p>
+            When I'm not immersed in Visual Studio Code, I enjoy exploring cafes, gaming with
+            friends, and indulging in drawing.
+          </p>
+        </div>
       </div>
-    </div>
-
-    <div class="sidebar">
-      <img src="icons/email.svg">
-      <img src="icons/linkedin.svg">
-      <img src="icons/github.svg">
-    </div>
+    </main>
+    
   </body>
 </html>
