@@ -2,7 +2,7 @@
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  gap: 32px;
+  gap: 48px;
   width: 60%;
   margin: 100px auto;
 }
@@ -23,7 +23,7 @@
 
 .typewriter-text {
   font-family: "Noto Serif", Arial;
-  font-size: 32px;
+  font-size: 48px;
   font-weight: 500;
   display: inline-block;
   white-space: nowrap;
@@ -39,5 +39,6 @@
 }
 
 .about-content p {
+  font-size: 16px;
   margin-bottom: 16px;
 }
