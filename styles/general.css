@@ -13,3 +13,14 @@ body {
 html {
   scroll-padding-top: 80px; /* Adjust this value to the height of your fixed navbar */
 }
+
+#chatbox { 
+  border: 1px solid #ccc; 
+  padding: 10px; 
+  height: 300px; 
+  overflow-y: scroll; 
+}
+
+#input { 
+  width: 100%;
+}
